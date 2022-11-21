@@ -1,3 +1,24 @@
+:root {
+  --dark: #22223b;
+  --main: #4a4e69;
+  --sec: #9a8c98;
+  --mid-light: #c9ada7;
+  --light: #f2e9e4;
+}
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+//START NAVBAR
+
+.nav-item {
+  color: var(--light);
+}
+
+.row {
+  background-color: var(--main);
+  color: var(--light);
+}
+
+
